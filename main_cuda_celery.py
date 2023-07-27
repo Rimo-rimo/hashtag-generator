@@ -76,7 +76,7 @@ def post_process(result):
 #             raise ValueError('Invalid base64-encoded string')
 
 # Setting
-device = "cuda:2"
+device = "cuda"
 model, tokenizer, processor = basic_mplug_owl(pretrained_ckpt='MAGAer13/mplug-owl-llama-7b', device=device)
 prompt = "Please create 7 hashtags for Instagram through a sentence that summarizes the image in one sentence."
 generate_kwargs = {
