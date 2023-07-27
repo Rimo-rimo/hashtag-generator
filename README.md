@@ -42,6 +42,7 @@
     
     celery -A celery_worker worker --loglevel=info --concurrency=1
     # concurrency를 높이면 작업자 수가 늘어남
+    # celery 사용하지 않을 시, 아래의 main_cpu 실행 (for cpu)
     ```
     
 2. main.py
