@@ -3,7 +3,7 @@
 Get the Hashtags from image uploaded
 
 Usage:
-    $ uvicorn main:app --reload --host=0.0.0.0 --port=30000
+    $ uvicorn main_cuda_celery:app --reload --host=0.0.0.0 --port=30000
 
 Models: 
     https://huggingface.co/MAGAer13/mplug-owl-llama-7b
